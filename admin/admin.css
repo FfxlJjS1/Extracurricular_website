@@ -1,0 +1,363 @@
+/*
+
+	Design by Free CSS Templates
+	http://www.freecsstemplates.org
+	Released for free under a Creative Commons Attribution License
+
+	Name       : Eponymous
+	Version    : 1.0
+	Released   : 20130222
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #d43535;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.75em;
+	font-family: Arial, sans-serif;
+	background: #030707 url('../images/bg.jpg');
+	color: #c0c1c1;
+}
+
+br.clear {
+	clear: both;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: Arvo, serif;
+	color: #ffffff;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+.Setting_top_right {
+	text-decoration: underline;
+	margin: 0px 20px 0px 20px;
+}
+
+.Setting_top_right:hover {
+	background-color: #322B2B;
+	text-decoration: none;
+	cursor: default;
+}
+
+.login {
+	background: #161616;
+	border-radius: 30px;
+	width: 300px;
+	height: 200px;
+	padding: 20px 20px 20px 20px;
+	margin: 50px 0px 0px 375px;
+}
+
+.login-button {
+	padding: 10px 25px 10px 25px;
+}
+
+.forum_obs {
+	color: #000000;
+	background: #9CEBDB;
+	margin: 0px 0 25px 0;
+	padding: 10px 0px 10px 10px;
+	overflow: hidden;
+	text-decoration: underline;
+	border: #5C9388;
+}
+
+.forum_obs:hover {
+	background: #5FA899;
+	text-decoration: none;
+}
+
+.forgot-password {
+	margin: 0px 20px 0px 0px;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+	
+#bg {
+	background: url('../images/shadow.png') top left repeat-x;
+	padding: 60px 0 80px 0;
+}
+
+#banner {
+	position: relative;
+	padding: 5px 5px 5px 5px; 
+	height: 289px;
+	width: 1182px;
+	margin: 0px 0 0 0;
+	background: #90F4DD;
+}
+
+#box1 {
+	margin: 0px 0 25px 0;
+	overflow: hidden;
+}
+
+#box2 {
+	margin: 0px 0 25px 0;
+	overflow: hidden;
+}
+
+#content {
+	width: 860px;
+	margin: 0px 0 0 270px;
+	padding: 30px;
+	background: #9CEBDB;
+}
+
+#copyright {
+	margin: 40px 5px 0px 40px;
+	padding: 5px 20px 5px 5px;
+	text-align: right;
+	color: #707070;
+	font-size: 1em;
+}
+
+#copyright a {
+	color: #888888;
+}
+
+#footer {
+	position: relative;
+	padding: 30px;
+	width: 1120px;
+	background: #3ca9cd;
+	color: #addbea;
+}
+
+#footer a {
+	color: #e2f2f8;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #ffffff;
+}
+
+#footer ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+#footer p {
+	margin-bottom: 0;
+}
+
+#footer ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #6dbfda;
+}
+
+#footer ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#footerContent {
+	width: 855px;
+	margin: 0px 0 0 265px;
+}
+
+#footerSidebar {
+	width: 180px;
+	float: left;
+}
+
+#header {
+	position: relative;
+	padding: 30px;
+	height: 80px;
+	width: 1120px;
+}
+
+#logo {
+	position: absolute;
+	top: 50px;
+	left: 35px;
+	height: 80px;
+	line-height: 42px;
+	letter-spacing: 0px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#logo h1 {
+	font-size: 2.75em;
+	font-family: Arvo, serif;
+}
+
+#main {
+	position: relative;
+	padding: 0px;
+	margin: 30px 0 0 0;
+	width: 1180px;
+	color: #6b6b6b;
+}
+
+#main a {
+	color: #262626;
+}
+
+#main strong {
+	color: #404040;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #141414;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #bfbfbf;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#nav {
+	position: absolute;
+	width: auto;
+	right: -20px;
+	height: 47px;
+	top: 64px;
+	font-family: Arvo, serif;
+	font-size: 1.1em;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+	margin: 0 0.5em 0 0.5em;
+	padding: 0.25em 1.1em 0.25em 1.1em;
+}
+
+#nav ul li.active {
+	background: #3CA9CD;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: #d9dada;
+}
+
+#nav ul li.active a {
+	color: #ffffff;
+}
+
+.admin_index_h3{
+	font-family: Arvo, serif;
+	font-size: 1.5em;
+	width:860px;
+	height:30px;
+	color: #141414;
+}
+
+.admin_index_p{
+	font-size: 12pt;
+    line-height: 1.75em;
+    margin-bottom: 1.5em;
+	width:860px;
+	height:128px;
+	margin: 0px 0px 25px 0px;
+	color: #6b6b6b;
+}
+	
+#outer {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0px;
+	color: #ffffff;
+	background: #d43535;
+	padding: 6px;
+}
+
+#search input.text {
+	border: dashed 1px #ffffff;
+	padding: 5px;
+}
+
+#sidebar {
+	width: 180px;
+	float: left;
+	padding: 30px 30px 30px 0px;
+	color: #959797;
+}
+
+#sidebar a {
+	color: #d9dada;
+}
+
+#sidebar h2, #sidebar h3, #sidebar h4 {
+	color: #ffffff;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #424545;
+}
+
+#sidebar ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
